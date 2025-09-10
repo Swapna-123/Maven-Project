@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Scenarios.facebook.TestCase1_LoginAndLogout"/>
+      <class name="Scenarios.facebook.TestCase2_LoginSearchAndLogout"/>
+      <class name="Scenarios.facebook.TestCase3_LoginSearchWishListAndLogout"/>
+      <class name="Scenarios.facebook.TestCase4_LoginSearchWishListCartAndLogout"/>
+      <class name="Scenarios.facebook.TestCase5_SearchCartLoginPaymentAndLogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
