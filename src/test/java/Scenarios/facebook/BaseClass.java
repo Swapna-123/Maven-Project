@@ -13,7 +13,7 @@ public class BaseClass
 		WebDriver driver;
 		@BeforeMethod
 		public void launchBrowser() {
-		driver = new EdgeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in");
 		driver.navigate().refresh();
